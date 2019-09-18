@@ -1,0 +1,24 @@
+#include <iomanip>
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    
+double kilograms;
+
+cout << "Enter the mass of a person in kilograms: ";   
+cin >> kilograms;
+    
+cout << fixed << showpoint << setprecision(2);
+    
+double pounds = kilograms * 2.2;
+    
+cout << endl;
+cout << "Your weight in pounds = " << pounds << endl;
+cout << endl;
+
+
+return 0;
+}
